@@ -6,11 +6,11 @@ import SecaoSobre from '../SecaoSobre'
 
 export default function Conteudo () {
   return (
-    <body>
+    <main>
       <SecaoCapa />
       <SecaoProdutos />
       <SecaoSobre />
       <SecaoContato />
-    </body>
+    </main>
   )
 }
