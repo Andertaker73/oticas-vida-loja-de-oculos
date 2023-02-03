@@ -2,7 +2,7 @@ import './estilo.css'
 
 export default function SecaoCapa () {
   return (
-    <section className={'capa'}>
+    <section className={'secao-capa'}>
       <div className={'limitar-secao banner'}>
         <p>Preços baixos em</p>
         <h1>Óculos de grau e de sol</h1>

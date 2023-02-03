@@ -9,7 +9,7 @@
 }
 
 .container-sobre {
-  margin: 50px 0;
+  margin: 50px 0 0 0;
   display: flex;
   flex-wrap: wrap;
 }
@@ -45,4 +45,38 @@
 .card-sobre p {
   font-size: 22px;
   color: #4a4a4a;
+}
+
+@media (max-width: 768px) {
+  .secao-sobre {
+    padding: 60px 20px;
+  }
+
+  .card-sobre { 
+    padding: 15px;
+  }
+
+  .card-sobre h3 {
+    font-size: 22px;
+  }
+  
+  .card-sobre p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 550px) {
+  .secao-sobre {
+    padding: 60px 10px;
+  }
+
+  .container-sobre {
+    flex-direction: column;
+  }
+
+  .container-sobre img,
+  .card-sobre  {
+    width: 100%;
+    height: 300px;
+  }
 }

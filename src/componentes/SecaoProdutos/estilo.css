@@ -50,3 +50,38 @@
   text-align: left;
   margin: 5px;
 }
+
+@media (max-width: 768px) {
+  .secao-produtos {
+    padding: 60px 20px; 
+  }
+
+  .card-produtos h3 {
+    font-size: 22px;
+  }
+
+  .card-produtos img {
+    max-height: 100px;
+  }
+
+  .card-produtos p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 550px) {
+  .secao-produtos {
+    padding: 60px 10px; 
+  }
+
+  .card-produtos {
+    width: 100%;
+  }
+
+  .secao-produtos ul {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
